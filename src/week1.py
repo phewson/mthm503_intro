@@ -17,7 +17,7 @@ def try_points(tries):
     >>> try_points(0)
     0
     """
-    pass
+    return 5 * tries
 
 
 def conversion_points(conversions):
