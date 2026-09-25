@@ -77,7 +77,7 @@ def drop_goal_points(drop_goals):
     >>> drop_goal_points(2)
     6
     """
-    pass
+    return drop_goals * 3
 
 
 def total_score(tries, conversions, penalties, drop_goals):
