@@ -37,7 +37,7 @@ def conversion_points(conversions):
     >>> conversion_points(2)
     4
     """
-    pass
+    return 2 * conversions
 
 
 def penalty_points(penalties):
@@ -57,7 +57,7 @@ def penalty_points(penalties):
     >>> penalty_points(4)
     12
     """
-    pass
+    return penalties * 3
 
 
 def drop_goal_points(drop_goals):
